@@ -14,7 +14,7 @@
   .menu li {
     padding: 8px;
     margin-bottom: 7px;
-    background-color: #111111;
+    background-color: #2221217e;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
@@ -22,12 +22,15 @@
   .menu li:hover {
     background-color: #fff87f;
   }
+
   a {
       color: #ffffff;
       text-decoration: none;
     }
 
 /*fin de menu*/
+
+
 p{
     color: white;
 }
@@ -37,7 +40,7 @@ html {
 
 body { 
     font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     min-height: 100%;
 }
 .grid-container > * {
@@ -50,9 +53,9 @@ body {
     grid-area: header;
     background-color: #ffffff;
 }
-.header img{
+.header img{ /*tamaño log*/
     width: 100px;
-    height: 90px;
+    height: 80px;
     display: flex;
 }
 .sidebar img{
@@ -85,6 +88,15 @@ body {
     "sidebar"
     "footer";
 }
+
+/*galeria imagenes*/
+.galeria {
+    width: 50px;
+    height: 50px;
+
+}
+
+
 @media (min-width: 600px) {
     .grid-container {
         /*grid-template-columns: 200px auto;
