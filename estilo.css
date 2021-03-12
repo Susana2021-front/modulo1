@@ -40,10 +40,11 @@ html {
   
 }
 .menu ul {
-  list-style-type: none;
-  margin: 0;
   padding: 0;
+  list-style-type:none;
+  margin: 0;
 }
+
 
 .menu li {
   padding: 8px;
@@ -81,13 +82,15 @@ html {
 .col-6 .galeria img{
   width:330px;
   height:350px;
- padding: 3px;
- display:block;
-margin:auto;
+  padding: 3px;
+  display:block;
+  margin:auto;
 
 
 
 }
+
+
 
 
 
