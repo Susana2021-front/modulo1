@@ -2,35 +2,33 @@
     font-family: 'Mountains of Christmas', cursive;
     text-align: center;
   }
-  img {
-    display:block;
+   img {
+    display: block;
     grid-auto-rows: 200px;
-    grid-template-columns:auto auto auto auto;
-    justify-items:inherit;
+    grid-template-columns: auto auto auto auto;
+    justify-items: inherit;
     grid-column: span;
-    width: 280px;;
+    width: 280px;
     height: 300px;
-    column-gap: 10px;
-    row-gap: 20px;
+    column-gap: 20px ;
     gap: 10px;
+    row-gap: 20px;
     float: left;
     position: relative;
-    top:1fr 1fr 1fr 1fr;
-    
+    top: 1fr 1fr 1fr 1fr;
 }
 
    div {
-    padding: 3em;
-    grid-column: span;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    display:inline-block;
-    gap: 1em;
-    box-sizing:border-box;
-    flex-direction: column;
-    text-align:left;
-    font-family: 'Mountains of Christmas', cursive;
-
-  }
+     padding: 3em;
+     grid-column: span;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     display: inline-block;
+     gap: 1em;
+     box-sizing: border-box;
+     flex-direction: column;
+     text-align: left;
+     font-family: Mountains of Chritmas, cursive;
+   }
 
    span {
     color: red;
